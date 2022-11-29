@@ -1,0 +1,24 @@
+body {
+  background-color: azure;
+  font-family: 'Roboto Slab', serif;
+}
+
+.main-container {
+  display: inline-block;
+  margin: 30px;
+}
+div img {
+  width: 300px;
+  border-radius: 25px;
+}
+
+.main-container:hover {
+  transform: rotate(-0.01turn);
+  background-color: rgba(234, 233, 233, 0.269);
+  border: 2px solid rgba(234, 233, 233, 0.269);
+  border-radius: 25px;
+}
+
+.info:hover {
+  background-color: rgba(173, 170, 170, 0.269);
+}
